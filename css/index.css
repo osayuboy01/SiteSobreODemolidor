@@ -1,0 +1,48 @@
+
+body{
+    background: black;
+}
+.caixa1{
+    width: 250px;
+    height: 350px;
+    position: relative;
+
+}
+.caixa2{
+    width: 250px;
+    height: 350px;            
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    z-index:-1;
+    cursor: pointer;
+    transition:1s;
+}
+.caixa2:hover{
+    opacity:0;
+    transition:300ms;
+}
+.fundo{
+    z-index: -5;
+
+}
+.frente{
+    z-index: 99;
+}
+.texto{
+    color:white;
+    text-align: center;
+    position:absolute;
+    text-align: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.imagem{
+    width: 250px;
+    height: 350px;
+    position: absolute;
+}
+

@@ -1,0 +1,94 @@
+body{
+    background: black;
+
+}
+h1{
+    color: rgb(255, 5, 5);
+    text-align: center;
+    
+}
+h2{
+    color: rgb(255, 5, 5);
+    text-align: center;
+}
+.texto1{
+    color: wheat;
+   position: relative;
+   left: 340px;
+   bottom: 450px;
+}
+
+.img2{
+    
+    justify-content: center;
+    display: flex;
+    margin: 480px;
+    margin-top: -400px;
+    width: 510px;
+    overflow: hidden;
+    transition: 500ms;
+}
+.img2:hover{
+    transform: scale(1.3);
+    -webkit-filter: none(0%);
+    filter: grayscale(0%);
+}
+.title0{
+    background-color: white;
+}
+.title1{
+    
+}
+.title2{
+margin-top: -400px;
+}
+.title3{
+   
+    margin-top: -400px;
+}
+.title2:hover{
+    color: rgb(223, 28, 149);
+    
+    transition: 1s;
+}
+.texto3{
+    color: wheat;
+    left: 340px;
+   bottom: 800px;
+   text-align: center;
+   
+    
+}
+.texto4{
+    color: wheat;
+    text-align: center;
+}
+.img3{
+    justify-content: center;
+    display: flex;
+    margin: 480px;
+    margin-top: -1px;
+    width: 510px;
+    transition: 500ms;
+    
+}
+.img3:hover{
+    transform: scale(1.3);
+    -webkit-filter: none(0%);
+    filter: grayscale(0%);
+}
+
+.img4{
+    justify-content: center;
+    display: flex;
+    margin: 500px;
+    margin-top: auto;
+    width: 510px;
+    transition: 500ms;
+}
+.img4:hover{
+    transform: scale(1.3);
+    -webkit-filter: none(0%);
+    filter: grayscale(0%);
+    
+}

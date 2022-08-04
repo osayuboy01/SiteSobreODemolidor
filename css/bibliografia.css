@@ -1,0 +1,28 @@
+.logo{
+    width: 150px;
+}
+body{
+    background: black;
+}
+h1,h2{
+    color: rgb(255, 5, 5);
+    text-align: center;
+}
+.texto1{
+    color: wheat;
+    margin: auto;
+    left: 340px;
+    bottom: 450px;
+    margin-top: 25px;
+    padding: 5px;
+
+}
+.titulo1{
+    background-color: aliceblue;
+}
+.titulofim{
+    background-color: aliceblue;
+}
+.linha{
+    opacity: 0;
+}

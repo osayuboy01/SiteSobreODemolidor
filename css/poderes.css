@@ -1,0 +1,51 @@
+body{
+    background: black;
+}
+h1{
+    color: rgb(255, 5, 5);
+    text-align: center;
+    background-color: white;
+}
+h2{
+    color: rgb(255, 5, 5);
+    text-align: center;
+}
+p{
+    color: wheat;
+    position: relative;
+
+}
+.img6{
+    width: 500px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    transition: 500ms;
+}
+.img6:hover{
+    transform: scale(1.3);
+    -webkit-filter: none(0%);
+    filter: grayscale(0%);
+}
+.img7{
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    transition: 500ms;
+}
+.img7:hover{
+    transform: scale(1.3);
+    -webkit-filter: none(0%);
+    filter: grayscale(0%);
+}
+.texto1{
+    text-align: center;
+    color: wheat;
+    margin-right: 20px;
+   
+}
+.texto2{
+    text-align: center;
+    color: wheat;
+}
